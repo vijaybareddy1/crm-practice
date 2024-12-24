@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+/* Add space for the fixed header */
+body {
+  margin: 0;
+  padding-top: 60px; /* Space equal to header height */
+  font-family: Arial, sans-serif;
+}

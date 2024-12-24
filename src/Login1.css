@@ -1,0 +1,148 @@
+/* Fullscreen Background */
+.login1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size:auto;
+    background-position: center;
+    background-color: #2cb057;
+    position: relative;
+    overflow: hidden;
+    background-image:  url("/public/background.png");
+
+
+  }
+  
+  /* White Box */
+  .login1-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    position: relative;
+  }
+ 
+  
+  
+  /* Orange Circle */
+  .orange-circle {
+    width:90px;
+    height:90px;
+    background-color: #f68721;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Title */
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Elements */
+  .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #2cb057;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #2cb057;
+    font-size: 12px;
+  }
+  .timer-message{
+    height: 5px;
+  }
+  
+  /* Login Button */
+  .login1-button {
+    width: 30%;
+    background-color: #2cb057;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login1-button:hover {
+    background-color: #239944;
+  }
+  
+  /* Footer */
+  .footer-text {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* .footer-text img {
+    height: 40px;
+    vertical-align: middle;
+  } */
+  
+  .footer-text strong {
+    color: #2cb057;
+    font-weight: bold;
+  }
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 25px;
+    
+    
+  }
+   .elbert{
+    width:50px;
+    height:50px;
+
+  } 
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
